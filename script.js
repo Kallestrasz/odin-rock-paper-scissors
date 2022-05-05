@@ -29,7 +29,7 @@ function gameSequence(){
         else continue
     }
     if (result > 0) alert("You've won the game!") 
-    else { alert("You've lost the game!")}
+    else alert ("You've lost the game!")
 }
 
 gameSequence()
