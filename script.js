@@ -3,9 +3,9 @@ const pick = ["rock","paper","scissors"]
 
 function playRound(playerSelection, computerSelection) {
     let result = pick.indexOf(playerSelection) - pick.indexOf(computerSelection)
-    if (result == -1 || result == 2) {  result = false; return "CPU won";}
+    if (result == -1 || result == 2) {  result--; return "CPU won";}
 	else if (result == 0) {  tie = true; return "Tie!";}
-    else { result = true; return "You win"; } 
+    else { result++; return "You win"; } 
 }
 
 function gameSequence(){
