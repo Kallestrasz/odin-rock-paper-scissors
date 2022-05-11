@@ -1,0 +1,49 @@
+body{
+    background-color: #1F2937;
+    color: whitesmoke;
+    min-height: 100vh;
+    margin: auto; 
+    max-width: 80%;
+    font-family: "Fira Code", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-x:hidden; 
+    overflow-y:auto;
+}
+
+.main{ 
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.picknm{
+    margin-top: 2vh;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+img{
+    flex-grow: 0;
+    max-height: 30vh;
+    min-height: 30vh;
+    max-width: 25vw;
+    border-radius: 15px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+button {
+    height: 50vh;
+    width: 25vw;
+    border-style: solid;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+h1{ text-align: center }
+footer{ 
+    margin-top: 10 px;
+    text-align: center;
+}
