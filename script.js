@@ -18,19 +18,20 @@ function playRound(playerSelection, computerSelection) {
 
 }
 
- const pChoice = document.querySelector('.pChoice')
- const cChoice = document.querySelector('.cChoice')
- const output = document.querySelector('.output')
+const pChoice = document.querySelector('.pChoice')
+const cChoice = document.querySelector('.cChoice')
+const output = document.querySelector('.output')
 
- const pScore = document.querySelector('.pScore')
- const cScore = document.querySelector('.cScore')
+const pScore = document.querySelector('.pScore')
+const cScore = document.querySelector('.cScore')
 
- const roundCount = document.querySelector('.roundCount')
+const roundCount = document.querySelector('.roundCount')
 
 function betterGameSequence(playerSelection){
     let computerSelection = pick[Math.floor(Math.random()*3)] 
     let tie
     if(round <= 5){
+        
     pChoice.textContent = pick[playerSelection]
     cChoice.textContent = computerSelection
     output.textContent = tie = playRound(playerSelection,computerSelection)
@@ -48,7 +49,7 @@ function betterGameSequence(playerSelection){
     usersc = 0
     cpusc = 0
     }
- } 
+} 
 
 const buttons = document.querySelectorAll('button')
 buttons.forEach((button) => {

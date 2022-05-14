@@ -15,7 +15,6 @@ body{
 .main{ 
     display: flex;
     justify-content: space-between;
-    
 }
 
 .display{
@@ -28,6 +27,7 @@ body{
     font-size: 2rem;
     font-weight: bold;
 }
+.footer,
 .scString,
 .chString{
     display: flex;
@@ -62,4 +62,5 @@ h1{ text-align: center }
 footer{ 
     margin-top: 10 px;
     text-align: center;
+    font-family: "Cloister Black";
 }
