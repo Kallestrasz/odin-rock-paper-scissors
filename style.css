@@ -18,10 +18,26 @@ body{
     
 }
 
+.display{
+    display: flex;
+    justify-content: space-between;
+}
+
 .picknm{
     margin-top: 2vh;
     font-size: 2rem;
     font-weight: bold;
+}
+.scString,
+.chString{
+    display: flex;
+    gap: 8px;
+}
+
+.scString,
+.chString,
+.output{
+    font-size: larger;
 }
 
 img{
@@ -34,7 +50,7 @@ img{
     margin-right: 8px;
 }
 button {
-    height: 50vh;
+    height: 40vh;
     width: 25vw;
     border-style: solid;
     border-radius: 25px;
