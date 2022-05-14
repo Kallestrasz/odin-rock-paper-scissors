@@ -64,8 +64,8 @@ button {
 }
 h1{ text-align: center }
 footer{ 
-
     margin-top: 10 px;
     text-align: center;
     font-family: "Cloister Black";
+    font-size: larger;
 }
