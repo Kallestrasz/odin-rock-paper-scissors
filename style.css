@@ -40,6 +40,10 @@ body{
     font-size: larger;
 }
 
+.output{
+    text-align: center;
+}
+
 img{
     flex-grow: 0;
     max-height: 30vh;
@@ -60,6 +64,7 @@ button {
 }
 h1{ text-align: center }
 footer{ 
+
     margin-top: 10 px;
     text-align: center;
     font-family: "Cloister Black";
